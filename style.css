@@ -19,7 +19,7 @@ body {
 }
 .content {
   width: 100%;
-  padding: 50px 50px;
+  padding: 70px 50px;
 }
 .navbar {
   display: flex;
@@ -123,8 +123,11 @@ body {
 }
 .contact-btn {
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
   align-items: center;
+}
+.space-btn {
+  margin-right: 20px;
 }
 @media (max-width: 1199px) {
   .head-large {
@@ -155,7 +158,7 @@ body {
   }
 
   .content {
-    padding: 30px 30px;
+    padding: 70px 30px;
   }
 }
 @media (max-width: 833px) {
@@ -219,7 +222,7 @@ body {
   }
 
   .content {
-    padding: 15px 10px;
+    padding: 70px 10px;
   }
 
   .container {
