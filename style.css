@@ -55,6 +55,10 @@ body {
   font-weight: bolder;
   margin-top: 50px;
 }
+.btn:hover {
+  background-color: #333;
+  transform: scale(1.05);
+}
 .link {
   all: unset;
 }
