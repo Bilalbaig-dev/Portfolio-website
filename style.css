@@ -3,6 +3,9 @@
   padding: 0px;
   box-sizing: border-box;
 }
+html {
+  scroll-behavior: smooth;
+}
 
 body {
   background-color: lightgray;
@@ -51,6 +54,9 @@ body {
   font-size: 30px;
   font-weight: bolder;
   margin-top: 50px;
+}
+.link {
+  all: unset;
 }
 #nav-btn {
   margin-top: 0px;
@@ -215,6 +221,9 @@ body {
   .contact-btn {
     flex-direction: column;
     gap: 5px;
+  }
+  .space-btn {
+    margin-right: 0px;
   }
 }
 @media (max-width: 480px) {
