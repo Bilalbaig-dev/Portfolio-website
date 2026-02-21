@@ -66,6 +66,7 @@ body {
 .card-btn {
   color: black;
   background-color: lightgray;
+  border: 2px solid black;
   padding: 12px 25px;
   border-radius: 12px;
   cursor: pointer;
